@@ -17,12 +17,7 @@
     <updated>2025-07-30T11:49:30+08:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
-  <locale xml:lang="en">
-    <terms>
-      <term name="paper-conference">paper</term>
-    </terms>
-  </locale>
-  <locale xml:lang="zh">
+  <locale>
     <terms>
       <term name="ibid">同上</term>
       <term name="in">收錄於</term>
@@ -41,10 +36,6 @@
       <term name="line" form="short">行</term>
       <term name="note" form="short">註</term>
       <term name="opus" form="short">op.</term>
-    </terms>
-  </locale>
-  <locale>
-    <terms>
       <term name="page-range-delimiter">-</term>
     </terms>
   </locale>
@@ -607,21 +598,12 @@
     </choose>
   </macro>
   <citation>
-    <layout delimiter="；" suffix="。" locale="zh">
+    <layout delimiter="；" suffix="。">
       <text macro="entry-layout-zh"/>
-    </layout>
-    <layout delimiter="; " suffix=".">
-      <text macro="entry-layout-en"/>
     </layout>
   </citation>
   <bibliography entry-spacing="0" second-field-align="flush">
-    <layout locale="zh">
       <text variable="citation-number" suffix="."/>
       <text macro="source-zh" suffix="。"/>
-    </layout>
-    <layout>
-      <text variable="citation-number" suffix="."/>
-      <text macro="source-en" suffix="."/>
-    </layout>
   </bibliography>
 </style>
