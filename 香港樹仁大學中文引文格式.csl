@@ -153,8 +153,9 @@
   <macro name="volume-zh">
     <choose>
       <if is-numeric="volume">
-        <label variable="volume" form="short"/>
+        <text value="卷"/>
         <number variable="volume"/>
+        <label variable="volume" form="short"/>
       </if>
       <else>
         <text variable="volume"/>
