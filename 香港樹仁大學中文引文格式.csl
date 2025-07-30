@@ -158,6 +158,7 @@
         <number variable="volume"/>
       </if>
       <else>
+        <text value="卷"/>
         <text variable="volume"/>
       </else>
     </choose>
