@@ -152,7 +152,12 @@
   </macro>
   <macro name="volume-zh">
     <choose>
-      <text variable="volume"/>
+      <if is-numeric="volume">
+        <label variable="volume" form="short"/>
+        <number variable="volume"/>
+      <else>
+        <text variable="volume"/>
+      </else>
     </choose>
   </macro>
   <macro name="edition-zh">
