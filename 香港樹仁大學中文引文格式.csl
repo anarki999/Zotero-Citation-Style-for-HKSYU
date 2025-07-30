@@ -155,6 +155,7 @@
       <if is-numeric="volume">
         <label variable="volume" form="short"/>
         <number variable="volume"/>
+      </if>
       <else>
         <text variable="volume"/>
       </else>
