@@ -42,6 +42,7 @@
       <term name="note" form="short">註</term>
       <term name="opus" form="short">op.</term>
     </terms>
+  </locale>
   <locale>
     <terms>
       <term name="page-range-delimiter">-</term>
