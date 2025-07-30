@@ -153,6 +153,7 @@
   <macro name="volume-zh">
     <choose>
       <if is-numeric="volume">
+        <text value="卷"/>
         <label variable="volume" form="short"/>
         <number variable="volume"/>
       </if>
@@ -234,6 +235,10 @@
       <if type="article-newspaper">
         <text macro="locator-or-page-zh"/>
       </if>
+      <else-if variable="volume">
+        <text macro="volume-zh"/>
+        <text macro="issue-zh"/>
+      </else-if>
       <else-if variable="issue">
         <text macro="issue-zh"/>
       </else-if>
