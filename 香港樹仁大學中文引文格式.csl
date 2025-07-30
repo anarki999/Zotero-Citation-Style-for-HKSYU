@@ -2,7 +2,7 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" initialize="false" initialize-with=". " page-range-format="expanded" default-locale="en-US">
   <info>
     <title>香港樹仁大學中文引文格式</title>
-    <id></id>
+    <id>https://www.zotero-chinese.com/styles/臺大中文學報</id>
     <link href="https://www.zotero-chinese.com/styles/臺大中文學報" rel="self"/>
     <link href="https://clepapps.hku.hk/style/index.html" rel="documentation"/>
     <link href="https://clepapps.hku.hk/style/研究論文格式舉要單頁版.pdf" rel="documentation"/>
@@ -12,7 +12,7 @@
     </author>
     <category citation-format="note"/>
     <category field="literature"/>
-    <issn></issn>
+    <issn>1013-2422</issn>
     <summary>香港樹仁大學中文引文格式</summary>
     <updated>2025-07-30T11:49:30+08:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
